@@ -1,0 +1,165 @@
+/* Global Css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* First section */
+.global-btn{
+    border: none;
+    background-color: #f92c3b;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.global-btn-2{
+    border: none;
+    background-color: #f92c3b;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.global-section{
+    padding: 3rem  0;
+    color: black;
+}
+.global-heading{
+    font-size: 55px;
+    color: black;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.global-head-p{
+    font-size: 20px;
+    color: rgb(44, 43, 43);
+    text-align: center;
+}
+/* This Is header */
+header{
+background-color: black;
+color: aliceblue;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-weight: bold;
+padding-left: 5%;
+padding-right: 5%;
+height: 5rem;
+}
+.main-menu ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.first-section{
+    background-image: url(./img/Intro\ bg.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    padding:  10rem 0;
+    ;
+    text-align: center;
+}
+.first-section h2{
+    font-size: 5rem;
+    margin: 10px 0;
+    color: white;
+}
+
+.first-section p{
+    font-size: 2rem;
+    margin: 10px 0;
+    color: white;
+}
+
+/* About us Section */
+
+.about-main-div{
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+}
+.about-sub-div2 h2{
+    color: rgb(44, 43, 43);
+    font-size: 33px;
+}
+.about-sub-div2{
+    width: 500px;
+}
+.about-sub-div2 p{
+    color: black;
+    margin: 15px 0;
+}
+
+/* This  Is Service Area */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+
+.grid-single-item h2{
+    margin: 15px 0;
+}
+
+.grid-single-item p{
+    color: rgb(44, 43, 43);
+}
+
+.custom-icon-size{
+    font-size: 55px;
+}
+
+/* work section */
+.work-single-img{
+    width: 390px;
+}
+/* Testimonial Section */
+.testimonial-p{
+    color: black !important;
+    margin-top: 5px;
+}
+/* contact section */
+.contact-heading{
+font-size: 55px;
+text-align: center;
+}
+
+/* From */
+form{  
+    margin-left: 34rem;
+    margin-top: 20px;
+
+}
+form input{
+    width: 200px;
+}
+
+.submit-btn{
+    width: 100px;
+    height: 35px;
+    background-color: #f92c3b;
+    border-radius: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 10px;
+}
+/* this is footer */
+footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    height: 3rem;
+}
+footer p{
+    padding: 15px;
+}
